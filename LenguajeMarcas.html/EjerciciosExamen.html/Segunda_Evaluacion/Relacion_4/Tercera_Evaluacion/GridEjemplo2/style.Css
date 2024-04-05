@@ -1,0 +1,65 @@
+main{
+    display: grid;
+    background-color:blue;
+    max-width: 1000px;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 
+                50px
+                1fr
+                100px
+                200px;
+    margin: 0 auto;
+    grid-template-areas: "cabecera cabecera cabecera"
+                        "navegador navegador navegador"
+                        "lateral lateral lateral"
+                        "seccion seccion seccion"
+                        "pie pie pie";   
+
+
+
+}
+header {
+    grid-area: cabecera;
+    background-color: blueviolet;
+  }
+  
+  nav {
+    grid-area: navegador;
+    background-color: cornflowerblue;
+  }
+  
+  aside {
+    grid-area: lateral;
+    background-color: darkmagenta;
+  }
+  
+  section {
+    grid-area: seccion;
+    background-color: indigo;
+  }
+  
+  footer {
+    grid-area: pie;
+    background-color: darkorchid;
+  }
+  @media((mim-width: 600px) (max-width:1000px)){
+    main{
+        display: grid;
+        background-color:blue;
+        max-width: 1000px;
+        min-height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 150px 
+                            100px
+                            1fr
+                            100px;
+                            
+        margin: 0 auto;
+        grid-template-areas: "cabecera cabecera cabecera"
+                            "navegador navegador navegador"
+                            "lateral seccion seccion"
+                            "pie pie pie";   
+    }
+
+  }

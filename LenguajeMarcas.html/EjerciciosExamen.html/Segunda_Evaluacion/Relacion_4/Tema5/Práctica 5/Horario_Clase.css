@@ -1,0 +1,25 @@
+header{
+    margin-left: 320px;
+    margin-top: 250px;
+}
+table{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+table tr,td{
+    border-collapse: collapse;
+    border: 1px solid rgb(16, 15, 16);
+
+}
+th{
+    background-color: blue;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: green;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: orangered;
+    text-align: center;
+}

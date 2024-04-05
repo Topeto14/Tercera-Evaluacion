@@ -1,0 +1,77 @@
+#tabla_principal{
+
+    background-color: rgb(222, 211, 211);
+    font-weight: bold;
+
+}
+
+table{
+
+    width: 30%;
+}
+
+.ths{
+
+    background-color: rgb(198, 249, 255);
+    font-weight: bolder;
+    text-align: left;
+    width: 23%;
+
+}
+
+table,tr,td,th{
+
+    border: 1px solid black;
+    border-collapse:collapse;
+    text-align: center;
+    font: .9em Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    
+}
+
+table, tr, th, table, td {
+    border: 1px solid #333;
+    line-height: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+
+th{
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.amarillo{
+
+    background-color: rgb(255, 255, 207);
+}
+
+.imagen_euro{
+    
+    vertical-align: middle;
+    width: 15px;
+
+
+}
+
+.imagen_dolar{
+
+    vertical-align: middle;
+    width: 15px;
+
+}
+
+.imagen_yen{
+
+    vertical-align: middle;
+    width: 15px;
+}
+
+
+.imagen_libra{
+
+    vertical-align: middle;
+    width: 15px;
+
+}
