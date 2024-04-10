@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    gap: 1px;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: " celda1 celda1 celda1 celda2 "
+                         " celda3 celda4 celda5 celda2 "
+    ;
+}
+.container div{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celda1{
+
+    grid-area: celda1;
+    
+}
+
+.celda2{
+    grid-area: celda2;
+}
+.celda3{
+    grid-area: celda3;
+}
+.celda4{
+    grid-area: celda4;
+}
+.celda5{
+    grid-area: celda5;
+}
+
+/*Tablet*/
+@media (min-width:600px) and (max-width:1000px){
+    .container{
+        grid-template-areas: " celda3 celda1 celda1 celda2 "
+                             " celda3 celda4 celda5 celda2 "
+    ;
+    }
+};
+/*Iphone XR*/
+@media (min-width:1001px){
+    .container{
+        grid-template-areas: " celda1 celda1 celda1 celda1 "
+                             " celda2 celda2 celda2 celda2 "
+                             " celda3 celda3 celda3 celda3 "
+                             " celda4 celda4 celda4 celda4 "
+                             " celda5 celda5 celda5 celda5 "
+    ;
+    }
+}
