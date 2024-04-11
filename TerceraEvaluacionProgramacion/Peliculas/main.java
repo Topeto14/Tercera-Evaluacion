@@ -1,11 +1,10 @@
 package TerceraEvaluacionProgramacion.Peliculas;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Stream;
 
-    import java.util.ArrayList;
-    import java.util.Comparator;
-    import java.util.List;
-    import java.util.stream.Stream;
-
-    public class main {
+    public class Main {
 
         public static void main(String[] args) {
 
@@ -72,19 +71,6 @@ package TerceraEvaluacionProgramacion.Peliculas;
                     .forEach(System.out::println);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
+    }
 }

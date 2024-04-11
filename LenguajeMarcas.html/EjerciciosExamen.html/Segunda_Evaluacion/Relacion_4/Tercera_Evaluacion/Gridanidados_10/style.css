@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
-    justify-content: center;
-    align-items: center;
+ 
     display: grid;
+    width: 100dvw;
+    height: 100dvh;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 2fr 2fr ;
     gap: 1px;
@@ -24,19 +30,26 @@
 }
 .c4{
     display: grid;
-    grid-area:celda4;
+    padding: 20px;
     gap: 1px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-area:celda4;
+    grid-template-areas: "header header"
+                        "l2 l3"
+                        "l4 l5"
+    ;
+}
+
+.l2{
+    grid-area: l2;
+}
+.l3{
+    grid-area: l3;
 }
 .l4{
-    grid-row: 3/ span1;
+    grid-area: l4;
 }
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.l5{
+    grid-area: l5;
 }
 .c4 div{
     background-color: blueviolet;
@@ -46,4 +59,13 @@ header{
 }
 .c5{
     grid-area: celda5;
+}
+header{
+    grid-area: header;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
