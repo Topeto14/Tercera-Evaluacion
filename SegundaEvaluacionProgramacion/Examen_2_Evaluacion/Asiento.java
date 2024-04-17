@@ -1,4 +1,4 @@
-package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
+/*package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
 
 import java.util.Objects;
 
@@ -71,4 +71,4 @@ public abstract class Asiento {
         return this.fila + this.letra;
     }
 
-}
+}*/

@@ -1,4 +1,4 @@
-package TerceraEvaluacionProgramacion.Peliculas;
+/*package TerceraEvaluacionProgramacion.Peliculas;
 
 <<<<<<< HEAD
 import java.util.ArrayList;
@@ -81,7 +81,7 @@ public class Director {
         return peliculas;
     }
     */
-
+/*
         public void setNombre(String nombre) {
             this.nombre = nombre;
         }
@@ -110,7 +110,7 @@ public class Director {
         public int hashCode() {
             return (int) (id ^ (id >>> 32));
         }
->>>>>>> origin/main
+ origin/main
 
     /*
     public void addPelicula(Pelicula p) {
@@ -120,6 +120,6 @@ public class Director {
     public void deletePelicula(Pelicula p) {
         this.peliculas.remove(p);
     }
-    */
 
-}
+
+}*/

@@ -1,4 +1,4 @@
-package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
+/*package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
 
 public class Pasajero extends Persona {
     private String preferenciasComida;
@@ -51,3 +51,4 @@ public class Pasajero extends Persona {
         return sb.toString();
     }
 }
+*/

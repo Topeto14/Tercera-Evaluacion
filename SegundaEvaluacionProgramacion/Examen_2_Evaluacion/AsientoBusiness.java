@@ -1,4 +1,4 @@
-package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
+/*package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
 
 public class AsientoBusiness extends Asiento {
 
@@ -57,4 +57,4 @@ public class AsientoBusiness extends Asiento {
         double precioBase = super.getClass(calcularPrecio(precioBase);
         return precioBase;
     }
-}
+}*/

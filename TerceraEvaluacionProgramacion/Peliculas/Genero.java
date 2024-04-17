@@ -1,4 +1,4 @@
-package TerceraEvaluacionProgramacion.Peliculas;
+/*package TerceraEvaluacionProgramacion.Peliculas;
 
 public class Genero {
 <<<<<<< HEAD
@@ -75,3 +75,4 @@ public class Genero {
 =======
 >>>>>>> origin/main
 }
+*/

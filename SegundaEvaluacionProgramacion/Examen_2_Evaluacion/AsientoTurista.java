@@ -1,4 +1,4 @@
-package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
+/*package SegundaEvaluacionProgramacion.Examen_2_Evaluacion;
 
 public class AsientoTurista extends Asiento {
     private boolean ventana ;
@@ -66,5 +66,6 @@ public class AsientoTurista extends Asiento {
         return false;
     if (ventana>0)
         return true;
-    }*/
-}
+    }
+}*/
+

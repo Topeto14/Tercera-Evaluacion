@@ -1,4 +1,4 @@
-package SegundaEvaluacionProgramacion.Tema6.Ejercicio_6_Agenda;
+/*package SegundaEvaluacionProgramacion.Tema6.Ejercicio_6_Agenda;
 
 public class ContactoPersona extends Contacto {
     private String apodo ;
@@ -12,4 +12,4 @@ public class ContactoPersona extends Contacto {
         sb.append('}');
         return sb.toString();
     }
-}
+}*/

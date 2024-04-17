@@ -1,4 +1,4 @@
-package TerceraEvaluacionProgramacion.Peliculas;
+/*package TerceraEvaluacionProgramacion.Peliculas;
 <<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Objects;
@@ -114,4 +114,4 @@ public class Pelicula {
         this.directores.remove(director);
     }
 
-}
+}*/
