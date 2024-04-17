@@ -1,0 +1,66 @@
+/* El color de fondo de la página será #000 */
+body {
+    background-color: #000;
+}
+
+/* La caja contenido tendrá un ancho de 450 px y un margen automático para centrarse */
+#contenido {
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* La caja naranja tendrá un tamaño de 150 x 450 px y un color de fondo naranja */
+#naranja {
+    width: 150px;
+    height: 450px;
+    background-color: orange;
+    /* La caja naranja se posicionará de forma absoluta respecto a la caja contenido */
+    position: absolute;
+}
+
+/* La caja gris tendrá un tamaño de 150 x 300 px y un color de fondo gris */
+#gris {
+    width: 150px;
+    height: 300px;
+    background-color: gray;
+    /* La caja gris se posicionará de forma absoluta respecto a la caja contenido */
+    position: absolute;
+    /* La caja gris se desplazará 150 px a la derecha y 75 px hacia abajo */
+    right: 150px;
+    top: 75px;
+}
+
+/* La caja marrón tendrá un tamaño de 150 x 150 px y un color de fondo marrón */
+#marron {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    /* La caja marrón se posicionará de forma absoluta respecto a la caja contenido */
+    position: absolute;
+    /* La caja marrón se desplazará 300 px a la derecha */
+    right: 0;
+}
+
+/* La caja rosa tendrá un tamaño de 150 x 300 px y un color de fondo rosa */
+#rosa {
+    width: 150px;
+    height: 300px;
+    background-color: pink;
+    /* La caja rosa se posicionará de forma absoluta respecto a la caja contenido */
+    position: absolute;
+    /* La caja rosa se desplazará 150 px a la derecha y 150 px hacia abajo */
+    right: 150px;
+    bottom: 0;
+}
+
+/* La caja azul tendrá un tamaño de 150 x 150 px y un color de fondo aqua */
+#azul {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    /* La caja azul se posicionará de forma absoluta respecto a la caja contenido */
+    position: absolute;
+    /* La caja azul se desplazará 300 px a la derecha y 300 px hacia abajo */
+    right: 0;
+    bottom: 0;
+}

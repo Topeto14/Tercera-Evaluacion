@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ 
+    display: grid;
+    width: 100dvw;
+    height: 100dvh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr ;
+    gap: 1px;
+    grid-template-areas: "celda1 celda2"
+                         "celda3 celda4"
+                         "celda5 celda4"       
+    ;
+}
+.container div{
+    background-color: aquamarine;
+}
+.c1{
+    grid-area:celda1 ;
+}
+.c2{
+    grid-area:celda2;
+}
+.c3{
+    grid-area:celda3;
+}
+.c4{
+    display: grid;
+    padding: 20px;
+    gap: 1px;
+    grid-area:celda4;
+    grid-template-areas: "header header"
+                        "l2 l3"
+                        "l4 l5"
+    ;
+}
+
+.l2{
+    grid-area: l2;
+}
+.l3{
+    grid-area: l3;
+}
+.l4{
+    grid-area: l4;
+}
+.l5{
+    grid-area: l5;
+}
+.c4 div{
+    background-color: blueviolet;
+}
+.c4 header{
+    background-color: blueviolet;
+}
+.c5{
+    grid-area: celda5;
+}
+header{
+    grid-area: header;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
