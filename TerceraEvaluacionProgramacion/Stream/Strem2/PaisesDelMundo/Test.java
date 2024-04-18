@@ -89,11 +89,12 @@ public class Test {
         NuevaZelanda.addCiudad(new Ciudad("Barcelona",106, NuevaZelanda));
         NuevaZelanda.addCiudad(new Ciudad("Valencia",36,NuevaZelanda));
 
+
         List<Pais> paises = List.of(Bolivia,Espana,Marruecos,Japon,China,Brasil,Portugal,Tunez,Australia,NuevaZelanda);
 
         /* - Menor superficie */
         paises.stream()
-                .min(Comparator.comparing(pais->pais.getSuperficie()))
+                .min(Comparator.comparing(Pais::getSuperficie))
                 .ifPresent(pais -> System.out.println(pais.getNombre()));
         /*- Muestra los países ordenados por población (descendente). Muestra país y población.*/
         paises.stream()
@@ -103,8 +104,8 @@ public class Test {
         /*- Muestra las capitales de todos los países ordenadas alfabéticamente*/
         System.out.println("Ordenar ciudades alfabeticamente:");
         paises.stream()
-                .map(pais -> pais.getCapital())
-                .sorted(Comparator.comparing(pais -> pais.getNombre()))
+                .map(Pais::getCapital)
+                .sorted(Comparator.comparing(Ciudad::getNombre))
                 .forEach(pais-> System.out.println(pais.getNombre()));
     }
 }
