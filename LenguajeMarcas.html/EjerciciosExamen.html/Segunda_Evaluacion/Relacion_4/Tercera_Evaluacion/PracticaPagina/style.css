@@ -1,0 +1,15 @@
+header {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 28, 28);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 179, 179);
+}
+
+nav.li {}
