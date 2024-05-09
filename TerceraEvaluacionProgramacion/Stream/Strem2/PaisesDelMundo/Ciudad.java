@@ -11,7 +11,6 @@ public class Ciudad {
 
     //Constructor
 
-
     public Ciudad( String nombre, Integer poblacion, Pais pais) {
         this.nombre = nombre;
         this.poblacion = poblacion;

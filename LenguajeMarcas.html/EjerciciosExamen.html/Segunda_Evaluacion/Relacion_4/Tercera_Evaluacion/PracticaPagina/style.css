@@ -5,6 +5,11 @@ header {
     background-color: rgb(219, 28, 28);
 
 }
+header img{
+    width: 50%;
+    height: 50%;
+
+}
 
 nav {
     display: flex;
