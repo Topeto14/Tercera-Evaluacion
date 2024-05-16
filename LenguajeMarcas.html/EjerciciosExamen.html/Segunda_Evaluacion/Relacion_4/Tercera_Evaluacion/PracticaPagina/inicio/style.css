@@ -54,12 +54,21 @@ header .federacion {
 
 }
 
-.navegador ul li {
+/*.navegador ul li {
     width: 200px;
     border-width: medium;
     border-color: rgb(145, 210, 235);
     border-radius: 10px;
     border-style: ridge;
+}*/
+.navegador ul a {
+    width: 200px;
+    border-width: medium;
+    border-color: rgb(145, 210, 235);
+    border-radius: 10px;
+    border-style: ridge;
+    text-decoration: none;
+    color: black;
 }
 
 .inicio {
@@ -165,6 +174,7 @@ main .texto {
 footer {
     border-top: 15px groove black;
     margin-top: 100px;
+    background: linear-gradient(rgb(69, 65, 65), rgb(193, 190, 190));
 
 }
 

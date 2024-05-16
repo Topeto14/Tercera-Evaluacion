@@ -54,12 +54,25 @@ header .federacion {
 
 }
 
-.navegador ul li {
+/*.navegador ul li {
     width: 200px;
     border-width: medium;
     border-color: rgb(145, 210, 235);
     border-radius: 10px;
     border-style: ridge;
+}*/
+.navegador ul {
+    display: grid;
+    height: 200px;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "inicio registros"
+        "tickets contacto";
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
 }
 
 .inicio {
@@ -78,4 +91,24 @@ header .federacion {
     grid-area: contacto;
 }
 
-footer {}
+footer {
+    border-top: 15px groove black;
+    margin-top: 100px;
+    background: linear-gradient(rgb(69, 65, 65), rgb(193, 190, 190));
+
+}
+
+footer .navegadorfooter {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    margin-top: 20px;
+
+}
+
+footer .text {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
