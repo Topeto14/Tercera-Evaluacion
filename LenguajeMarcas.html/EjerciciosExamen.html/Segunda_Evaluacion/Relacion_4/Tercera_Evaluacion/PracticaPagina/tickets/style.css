@@ -133,7 +133,7 @@ h1 {
 .formulariosillas {
     grid-area: formulariosillas;
     border-color: black solid 1px;
-    
+    grid-area: formulariosillas;
 }
 
 .formularioEvento {
@@ -163,4 +163,15 @@ footer .text {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+@media(min-width:600px) and (max-width:1000px){
+    main{
+        grid-template-columns: 100%;
+        grid-template-rows: 3fr
+                            3fr;
+        grid-template-areas: "formulariosillas"
+                            "formularioEvento";
+        margin: auto;                                        
+    }
+
 }
