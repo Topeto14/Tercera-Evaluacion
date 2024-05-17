@@ -216,7 +216,7 @@ footer .text {
 }
 
 @media (min-width:600px) and (max-width:1000px) {
-    header{
+    header .imagenes{
         background-color: brown;
         grid-template-columns: 100%;
         grid-template-rows: 1fr
@@ -226,16 +226,16 @@ footer .text {
         grid-template-areas: "tequiere"
                              "nav"
                              "federacion";
+        display: flex;
+        flex-direction: column;  
+        justify-items: center; 
+        align-items: center;                  
     }
-    .tequiere{
-        grid-area: tequiere;
-    }
+  
     .nav{
         grid-area: nav;
     }
-    .federacion{
-        grid-area: federacion;
-    }
+  
     body{
         background-color: aqua;
         grid-template-columns: 100%;
@@ -273,7 +273,8 @@ footer .text {
   
  
     main{
-        
+        height: max-content;
+        margin-bottom: 15%;
         grid-template-columns: 100%;
         grid-template-rows: 70%
                             30%
