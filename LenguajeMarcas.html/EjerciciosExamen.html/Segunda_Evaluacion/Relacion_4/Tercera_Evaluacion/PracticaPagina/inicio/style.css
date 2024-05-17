@@ -54,21 +54,20 @@ header .federacion {
 
 }
 
-/*.navegador ul li {
+
+.navegador ul li {
     width: 200px;
     border-width: medium;
-    border-color: rgb(145, 210, 235);
+    border-color: rgb(145, 228, 235);
     border-radius: 10px;
     border-style: ridge;
-}*/
+    background: linear-gradient(rgb(107, 107, 160),white);
+}
 .navegador ul a {
     width: 200px;
-    border-width: medium;
-    border-color: rgb(145, 210, 235);
-    border-radius: 10px;
-    border-style: ridge;
     text-decoration: none;
     color: black;
+ 
 }
 
 .inicio {
@@ -138,6 +137,20 @@ main .texto {
     justify-content: center;
     align-items: center;
 }
+p{
+    line-height: 35px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 15px;
+}
 
 .musona {
     grid-area: "musona";
@@ -156,39 +169,97 @@ main .texto {
 }
 
 .musona img {
-    width: 300px;
+    width: 350px;
 }
 
 .musa img {
-    width: 300px;
+    width: 350px;
 }
 
 .don_carnal img {
-    width: 300px;
+    width: 350px;
 }
 
 .cuaresma img {
-    width: 300px;
+    width: 350px;
 }
 
 footer {
     border-top: 15px groove black;
-    margin-top: 100px;
+    margin-top: 50px;
     background: linear-gradient(rgb(69, 65, 65), rgb(193, 190, 190));
 
 }
 
-footer .navegadorfooter {
+footer ul {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 60px;
     margin-top: 20px;
-
+}
+footer ul a{
+    text-decoration: none;
+    color: white ;
 }
 
 footer .text {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+@media (min-width:600px) and (max-width:1000px){
+    header{
+        background-color: blue;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px
+                            100px
+                            150px;
+        margin: auto;
+        grid-template-areas: "tequiere"
+                             "navegador"
+                             "federacion";
+
+    }
+
+}
+@media (min-width:1001px){
+    header{
+        background-color: brown;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px
+                            100px
+                            150px;
+        margin: auto;
+        grid-template-areas: "tequiere"
+                             "navegador"
+                             "federacion";
+
+    }
+    nav{
+        background-color: aqua;
+        grid-template-columns: 10% 20% ;
+        grid-template-rows: 100px
+                            100px    
+                            100px
+                            100px;
+        grid-area: "inicio" 
+                    "tickets"
+                    "registros"
+                    "contacto";
+
+    }
+    .inicio{
+        grid-area: inicio;
+    }
+    .tickets{
+        grid-area: tickets;
+    }
+    .registros{
+        grid-area: registros;
+    }
+    .contacto{
+        grid-area: contacto;
+    }
+
 }

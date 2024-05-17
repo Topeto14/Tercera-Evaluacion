@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 5px;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
@@ -54,25 +54,20 @@ header .federacion {
 
 }
 
-/*.navegador ul li {
+
+.navegador ul li {
     width: 200px;
     border-width: medium;
-    border-color: rgb(145, 210, 235);
+    border-color: rgb(145, 228, 235);
     border-radius: 10px;
     border-style: ridge;
-}*/
-.navegador ul {
-    display: grid;
-    height: 200px;
-    grid-template-rows: 2fr 2fr;
-    grid-template-columns: 2fr 2fr;
-    grid-template-areas: "inicio registros"
-        "tickets contacto";
-    list-style: none;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-
+    background: linear-gradient(rgb(107, 107, 160),white);
+}
+.navegador ul a {
+    width: 200px;
+    text-decoration: none;
+    color: black;
+ 
 }
 
 .inicio {
@@ -91,20 +86,77 @@ header .federacion {
     grid-area: contacto;
 }
 
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "formulariosillas formularioEvento";
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(12, 11, 14);
+    padding: 5px 5px 20px 0;
+}
+
+.cantidad {
+    margin: 30px 0;
+}
+
+.Zona {
+    margin: 30px;
+
+}
+
+.Dia {
+    margin: 30px 15px;
+
+}
+
+.Comprar {
+    margin: 30px;
+    color: black;
+    background: linear-gradient(rgb(33, 140, 233),white);
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+.Comprar:hover{
+    background:linear-gradient(rgb(75, 153, 87),white);
+}
+
+
+
+.formulariosillas {
+    grid-area: formulariosillas;
+    border-color: black solid 1px;
+    
+}
+
+.formularioEvento {
+    grid-area: formularioEvento;
+}
+
 footer {
     border-top: 15px groove black;
-    margin-top: 100px;
+    margin-top: 50px;
     background: linear-gradient(rgb(69, 65, 65), rgb(193, 190, 190));
 
 }
 
-footer .navegadorfooter {
+footer ul {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 60px;
     margin-top: 20px;
-
+}
+footer ul a{
+    text-decoration: none;
+    color: white ;
 }
 
 footer .text {

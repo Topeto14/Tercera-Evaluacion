@@ -17,10 +17,10 @@
 
             <nav class="navegador">
                 <ul>
-                    <li class="inicio"><a href="../inicio/carnaval1.html">Incio</a></li>
+                    <li class="inicio"><a href="../inicio/inicio.html">Incio</a></li>
                     <li class="tickets"><a href="../tickets/tickets.html">Tickets</a></li>
-                    <li class="registros"><a href="../registros/">Registrarse</a></li>
-                    <li class="contacto"><a href="../contacto/">Contacto</a></li>
+                    <li class="registros"><a href="../registros/registros.html">Registrarse</a></li>
+                    <li class="contacto"><a href="../contacto/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
 
@@ -29,17 +29,91 @@
 
     </header>
     <main>
+        <div class="formulariosillas">
+            <h1>Venta de sillas</h1>
+            <form method="post">
+                <div class="cantidad">
+                  <label >Cantidad   </label>
+                  <input type="number" required placeholder="Ingresar cantidad">
+                  
+                </div>
+
+                <form action="">
+                    <label class="Zona" for="Zona">Zona</label> <br>
+                    <select id="so" name="so">
+                      <option class="seleccione" value="" selected="selected">- seleccione  -</option>
+                      <option value="A">- A -</option>
+                      <option value="B">- B -</option>
+                      <option value="C">- C -</option>
+                      <option value="D">- D -</option>
+                    </select>
+                  </form>
+
+                  <form action="">
+                    <label class="Dia">Dia Desfile</label> <br>
+                    <select id="so" name="so">
+                      <option class="seleccione" value="" selected="selected">- seleccione  -</option>
+                      <option value="Domingo">- Domingo desfile -</option>
+                      <option value="Martes">-Martes Desfile -</option>
+                      <option value="Viernes">- Viernes Desfile -</option>
+                      <option value="Sabado">- Sabado Desfile -</option>
+                    </select>
+                  </form>
+             
+                <input class="Comprar" type="submit" value="Comprar">
+            </form>
+
+        </div>
+
+        <div class="formularioEvento">
+            <h1>Venta en Eventos</h1>
+            <form method="post">
+                <div class="cantidad">
+                    <label >Cantidad </label>
+                    <input type="number" required placeholder="Ingresar cantidad">
+                    
+                </div>
+
+                <form action="">
+                    <label class="Zona" for="Zona">Zona</label> <br>
+                    <select id="so" name="so">
+                      <option class="seleccione" value="" selected="selected">- seleccione  -</option>
+                      <option value="A">- A -</option>
+                      <option value="B">- B -</option>
+                      <option value="C">- C -</option>
+                      <option value="D">- D -</option>
+                    </select>
+                  </form>
+
+                  <form action="">
+                    <label class="Dia" for="">Dia Evento</label> <br>
+                    <select id="so" name="so">
+                      <option class="seleccione" value="" selected="selected">- seleccione  -</option>
+                      <option value="Drag">- Drag Queen -</option>
+                      <option value="Papel">-Trajes de Papel -</option>
+                      <option value="Cambio">- Cambio de Poderes -</option>
+                      <option value="Eleccion">- Eleccion de personajes  -</option>
+                    </select>
+                  </form>
+             
+                <input class="Comprar" type="submit" value="Comprar">
+            </form>
+
+        </div>
+
+
 
     </main>
 
     <footer>
-        <ul>
-            <li class="iniciof">Incio</li>
-            <li class="ticketsf">Tickets</li>
-            <li class="registrosf">Registrarse</li>
-            <li class="contactof">Contacto</li>
 
+        <ul>
+            <li class="inicio"><a href="../inicio/inicio.html">Incio</a></li>
+            <li class="tickets"><a href="../tickets/tickets.html">Tickets</a></li>
+            <li class="registros"><a href="../registros/registros.html">Registrarse</a></li>
+            <li class="contacto"><a href="../contacto/contacto.html">Contacto</a></li>
         </ul>
+        
         <p class="text">@Año 2024 | Todos los derechos reservados al autor Robert Levis Hurtado</p>
 
     </footer>
