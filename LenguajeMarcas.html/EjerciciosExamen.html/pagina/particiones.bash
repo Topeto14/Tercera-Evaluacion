@@ -36,6 +36,7 @@ case $opc in
 2)clear;dos;;
 3)clear;tres;;
 4)clear;cuatro;;
+5)exit;;
 *)echo "Debe introducir una opción válida";break;;
 esac
 done
